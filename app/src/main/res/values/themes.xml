@@ -2,5 +2,6 @@
 <resources>
     <style name="Theme.Nordic" parent="android:Theme.Material.NoActionBar">
         <item name="android:statusBarColor">#2E3440</item>
+        <item name="android:navigationBarColor">#2E3440</item>
     </style>
 </resources>

@@ -6,9 +6,10 @@ import androidx.compose.runtime.Composable
 private val NordicColorScheme = darkColorScheme(
     primary = FrostBlue,
     background = PolarNight,
-    surface = PolarNight,
+    surface = PolarNightLight,
     onBackground = SnowStorm,
-    onSurface = SnowStorm
+    onSurface = SnowStorm,
+    error = AuroraRed
 )
 
 @Composable
