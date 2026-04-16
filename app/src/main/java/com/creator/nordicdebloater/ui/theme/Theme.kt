@@ -1,8 +1,9 @@
 package com.creator.nordicdebloater.ui.theme
-import androidx.compose.material3.*
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 
-private val DarkColorScheme = darkColorScheme(
+private val NordicColorScheme = darkColorScheme(
     primary = FrostBlue,
     background = PolarNight,
     surface = PolarNight,
@@ -12,5 +13,5 @@ private val DarkColorScheme = darkColorScheme(
 
 @Composable
 fun NordicTheme(content: @Composable () -> Unit) {
-    MaterialTheme(colorScheme = DarkColorScheme, content = content)
+    MaterialTheme(colorScheme = NordicColorScheme, content = content)
 }
